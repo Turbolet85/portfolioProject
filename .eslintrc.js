@@ -1,5 +1,6 @@
 module.exports = {
   root: true,
+  ignorePatterns: ['node_modules/', '.DS_Store', 'dist/', 'dist-ssr/', '*.local'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2020,
