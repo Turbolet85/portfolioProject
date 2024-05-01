@@ -1,11 +1,5 @@
-import styles from './app.module.css';
-
 const App = () => {
-  return (
-    <main className={styles.container}>
-      <div>BOILERPLATE</div>
-    </main>
-  );
+  return <h1 className={'text-3xl font-bold underline'}>BOILERPLATE</h1>;
 };
 
 export default App;
