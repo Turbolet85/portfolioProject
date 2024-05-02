@@ -1,5 +1,13 @@
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+
 const App = () => {
-  return <h1 className={'text-3xl font-bold underline'}>BOILERPLATE</h1>;
+  return (
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  );
 };
 
 export default App;
