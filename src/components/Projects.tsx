@@ -1,0 +1,18 @@
+import { projects } from '../assets/data';
+import ProjectCard from './ProjectCard';
+import SectionTitle from './SectionTitle';
+
+const Projects = () => {
+  return (
+    <section className={'align-element py-20'} id={'projects'}>
+      <SectionTitle text={'Projects'} />
+      <div className={'grid gap-8 py-16 lg:grid-cols-2 xl:grid-cols-3'}>
+        {projects.map((project) => (
+          <ProjectCard key={project.id} {...project} />
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default Projects;

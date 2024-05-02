@@ -1,4 +1,4 @@
-import { links } from '../../assets/data';
+import { links } from '../assets/data';
 
 const Navbar = () => {
   return (

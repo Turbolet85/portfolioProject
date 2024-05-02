@@ -3,8 +3,8 @@ import * as uuid from 'uuid';
 
 export const links = [
   { id: uuid.v4(), href: '#home', text: 'home' },
-  { id: uuid.v4(), href: '#about', text: 'about' },
   { id: uuid.v4(), href: '#skills', text: 'skills' },
+  { id: uuid.v4(), href: '#about', text: 'about' },
   { id: uuid.v4(), href: '#projects', text: 'projects' },
 ];
 
